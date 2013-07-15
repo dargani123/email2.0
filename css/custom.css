@@ -1,0 +1,132 @@
+body{ 
+	margin: 0px; 
+	font-family: 'Lato', sans-serif;	
+}
+
+td {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+
+/* Nav Bar CSS */
+
+.sign-out{
+	float: right;
+	display: block;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+.navbar {
+	margin-bottom: 0px;
+	border-bottom: 1px solid; 
+	border-color: #BDC3C7;
+	text-decoration: none;
+	position: absolute;
+	width: 100vw;
+}
+
+.page-title{
+	font-size: 20px;
+	font-weight: lighter;
+	text-decoration: none;
+}
+
+.navbar-inner {
+	line-height: 20px;	
+	background: white;
+	border-radius: 0;
+	padding: 10px 10px 10px 10px;
+	min-height: 0px;
+}
+
+.navbar-inner a{
+	color: #2980B9;
+}
+/*Everything below*/
+
+.container{
+	padding: 0px;
+	height: 100vh; 
+}
+
+.content{
+	height: 100vh;
+}
+
+/*Sidebar*/
+
+.sidebar{ 
+	height: 100vh;
+	width: 325px;
+	float: left;
+	overflow: auto;
+}
+
+.email-view{
+	height: 100vh;
+	margin-left: 10px;
+	width: 100%;
+	/*background-color: #7F8C8D;*/
+}
+
+/* to-do-list */
+
+.to-do-list {
+	float: right;
+	width: 325px;
+	height: 100vh;
+}
+
+
+/*Short Emails */
+.short-email{
+	height: 60px;
+	padding: 10px;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	border-right: 1px solid;
+	border-color: #ECF0F1;
+	font-size: 12px;
+}
+
+/*.short-email-scrollable{
+	height: 60px;
+	width: 325px;
+}*/
+
+/*.short-email-inner{
+	width: 325px;
+}*/
+
+.author{
+	font-size: 14px;
+	font-weight: thick;
+}
+
+.subject {
+	margin-top: 3px;
+	padding: 0px;
+}
+
+
+.time{
+	color: #3498DB;
+	float: right;
+	font-size: 11px;
+	margin-top: 2px;	
+}
+
+.short-email p{
+	margin: 0px;
+}
+
+.short-email .text{
+	color: #95A5A6;
+	font-weight: thin;
+}
+
+
+
