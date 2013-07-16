@@ -9,6 +9,10 @@ td {
 	border: none;
 }
 
+a{
+	text-decoration: none;
+}
+
 
 /* Nav Bar CSS */
 
@@ -21,11 +25,14 @@ td {
 
 .navbar {
 	margin-bottom: 0px;
+	margin-left: 140px;
 	border-bottom: 1px solid; 
 	border-color: #BDC3C7;
 	text-decoration: none;
 	position: absolute;
-	width: 100vw;
+	width: 100%;
+	opacity: .7;
+	width: calc(100vh - 140px);
 }
 
 .page-title{
@@ -56,40 +63,51 @@ td {
 	height: 100vh;
 }
 
-/*Sidebar*/
+/*Columns*/
 
-.sidebar{ 
+.col-inner{
+	padding-top: 42px;
+	height: 100vh;
+}
+
+.sidebar{
+	width: 140px;
+	height: 100vh;
+	background-color: #ECF0F1;
+	vertical-align: top;
+	padding-top: 42px;
+}
+
+.sidebar-email{ 
 	height: 100vh;
 	width: 325px;
-	float: left;
-	overflow: auto;
+	/*overflow: auto;*/
 }
 
 .email-view{
 	height: 100vh;
 	margin-left: 10px;
-	width: 100%;
-	/*background-color: #7F8C8D;*/
+	/*background-color: yellow;*/
 }
-
-/* to-do-list */
 
 .to-do-list {
-	float: right;
 	width: 325px;
 	height: 100vh;
+	/*background-color: red;*/
 }
-
 
 /*Short Emails */
 .short-email{
+	width: 325px;
 	height: 60px;
 	padding: 10px;
-	border-top: 1px solid;
-	border-bottom: 1px solid;
-	border-right: 1px solid;
+	border: 1px solid;
 	border-color: #ECF0F1;
 	font-size: 12px;
+}
+
+.short-emails{
+	overflow: auto;
 }
 
 /*.short-email-scrollable{
@@ -127,6 +145,56 @@ td {
 	color: #95A5A6;
 	font-weight: thin;
 }
+
+
+/* Folders on Left */
+
+ul.folders{
+	list-style-type: none;
+	text-align: left;
+	margin-left: 0px;
+	padding-left: 12px;
+	top: 10%;
+}
+
+li{
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+.category{
+	text-decoration: none; 
+	font-size: 15px;
+}
+
+.category a{
+	color: #7F8C8D;
+}
+
+.category a:hover{
+	color: #2980B9;
+}
+
+.selected-cat a{
+	font-weight: bold; 
+	font-size: 16px;
+	color: #2980B9;
+	/*text-decoration: underline;	*/
+}
+
+.cat-unread{
+	float: right;
+	font-size: 12px;
+	margin-right: 10px;
+	padding: 3px;
+	text-align: middle;
+	font-weight: thin;
+	background-color: #2980B9;
+	color: white;
+	border-radius: 12px;
+}
+
+
 
 
 
